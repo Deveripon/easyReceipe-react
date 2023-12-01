@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: pink;
+        border-radius: 5px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: tomato;
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #bc0808;
+    }
+    body {
+        @apply font-headingFont bg-pink-50;
+    }
+}
+@layer utilities {
+    .container {
+        @apply w-[calc(100vw_-_5%)]  md:w-[calc(100vw_-_15%)] m-auto;
+    }
+    .primary-button {
+        @apply text-white transform duration-200 bg-primary hover:bg-primary-dark rounded-full hover:ring-2 ring-primary ring-offset-2;
+    }
+    .section-heading {
+        @apply text-[30px] xl:text-4xl text-center m-auto pt-12 pb-4;
+    }
+    .section-subtitle {
+        @apply font-paragraphFont  text-center m-auto pt-2 pb-12;
+    }
+}
+@layer components {
+    .grid-columns-two {
+        grid-template-columns: 1fr 1fr;
+    }
+}
