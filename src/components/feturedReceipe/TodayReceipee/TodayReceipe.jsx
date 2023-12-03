@@ -1,5 +1,6 @@
 import SectionHeader from "../../SectionHeader/SectionHeader";
 import TodayReceipeImg from "../../../assets/img//todayreceipe.png";
+import SectionSubtitle from "../../SectionSubtitle/SectionSubtitle";
 
 const TodayReceipe = () => {
     return (
@@ -7,13 +8,13 @@ const TodayReceipe = () => {
             <div className="container ">
                 <section className="today-receipe w-full relative bg-pink-50">
                     <SectionHeader title="Receipe for Today" />
-                    <div className=" absolute left-[20%] opacity-[.5] blur-[70px] top-[80%] pink bg-pink-600 h-20 w-96 rotate-45"></div>
-                    <div className=" absolute left-[30%] opacity-[.5] blur-[70px] top-[70%] pink bg-primary h-20 w-96 rotate-90"></div>
-                    <p className="section-subtitle xl:w-1/2 w-full">
+                    <div className=" absolute left-[10%]  xl:left-[20%] opacity-[.7] blur-[30px] xl:blur-[80px] top-[80%] pink bg-pink-600 h-20 w-12 xl:w-96 rotate-45"></div>
+                    <div className=" absolute left-[5%] xl:left-[30%] opacity-[.7] blur-[30px] xl:blur-[80px] top-[70%] pink bg-primary h-20 w-12 xl:w-96 rotate-90"></div>
+                    <SectionSubtitle>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                         doloribus quaerat! Dolore tenetur animi iusto unde libero officiis velit
                         sunt.
-                    </p>
+                    </SectionSubtitle>
 
                     <div className="receipe-section block m-auto xl:grid grid-cols-2 justify-center content-center py-8 gap-12">
                         <div className="section-right order-2">
