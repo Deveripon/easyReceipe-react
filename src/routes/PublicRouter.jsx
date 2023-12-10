@@ -13,7 +13,11 @@ const publicRouter = [
                 element: <Home />,
             },
             {
-                path: "auth",
+                path: "accounts/login",
+                element: <Auth />,
+            },
+            {
+                path: "accounts/signup",
                 element: <Auth />,
             },
             {

@@ -2,9 +2,12 @@ import { Link } from "react-router-dom";
 import { BiBookmarkHeart } from "react-icons/bi";
 import { HiMiniBellAlert } from "react-icons/hi2";
 import { FaUserCircle } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
     const isLoggedIn = false;
+    const location = useLocation();
+
     return (
         <>
             <section className="header-section bg-pink-50 shadow">
@@ -12,7 +15,10 @@ const Header = () => {
                     <div className="brand">
                         <Link to="/">
                             <h1 className="text-textColor max-xxs:text-[15px] text-[20px] md:text-[32px] border border-primary px-4 rounded-xl">
-                                Easy<span className="text-primary">Receipe</span>
+                                Easy
+                                <span className="text-primary">
+                                    Receipe
+                                </span>
                             </h1>
                         </Link>
                     </div>
@@ -20,9 +26,20 @@ const Header = () => {
                         <ul className="flex justify-center items-center gap-3 md:gap-10 text-textColor">
                             {isLoggedIn || (
                                 <li>
-                                    <Link className="primary-button px-5 py-1" to="#">
-                                        Sign Up
-                                    </Link>
+                                    {location.pathname ==
+                                    "/accounts/signup" ? (
+                                        <Link
+                                            className="primary-button px-5 py-1"
+                                            to="/accounts/login">
+                                            Log In
+                                        </Link>
+                                    ) : (
+                                        <Link
+                                            className="primary-button px-5 py-1"
+                                            to="/accounts/signup">
+                                            Sign Up
+                                        </Link>
+                                    )}
                                 </li>
                             )}
                             {isLoggedIn && (
