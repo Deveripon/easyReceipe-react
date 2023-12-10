@@ -6,11 +6,13 @@ import Receipe from "../Receipe/Receipe";
 const AllReceipe = () => {
     return (
         <>
-            <div className="container">
+            <div className="container pb-20">
                 <SectionHeader title="All Receipies" />
                 <SectionSubtitle>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-                    doloribus quaerat! Dolore tenetur animi iusto
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Perspiciatis,
+                    doloribus quaerat! Dolore tenetur animi
+                    iusto
                 </SectionSubtitle>
                 <ReceipeContainer>
                     <Receipe />
