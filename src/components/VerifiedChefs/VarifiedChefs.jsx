@@ -7,7 +7,7 @@ const VarifiedChefs = () => {
         <>
             <section className="varified-chefs pb-14 bg-orange-100">
                 <div className="container">
-                    <SectionHeader title="Verified Chefs" />
+                    <SectionHeader title="Varified Chefs" />
 
                     <SectionSubtitle>
                         Lorem, ipsum dolor sit amet
