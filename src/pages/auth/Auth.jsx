@@ -10,7 +10,7 @@ const Auth = () => {
     return (
         <>
             <Meta title="EasyReceipe | Accounts" />
-            <section className="auth-section h-screen flex justify-center items-center">
+            <section className="auth-section flex justify-center items-center">
                 <div className="container flex justify-center gap-3 md:gap-10 items-center">
                     <div className="auth-left flex-1 hidden md:block">
                         <img
