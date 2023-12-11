@@ -4,14 +4,16 @@ import { HiMiniBellAlert } from "react-icons/hi2";
 import { FaUserCircle } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import { MdPostAdd } from "react-icons/md";
+import { useContext } from "react";
+import { ModalContext } from "../../context/ModalContext";
 
 const Header = () => {
     const isLoggedIn = true;
     const location = useLocation();
-
+    const { handleModalView } = useContext(ModalContext);
     return (
         <>
-            <section className="header-section bg-pink-50 shadow sticky top-0 z-50">
+            <section className="header-section bg-pink-50 shadow sticky top-0 z-10">
                 <div className="container flex justify-between items-center py-4 ">
                     <div className="brand">
                         <Link to="/">
@@ -47,6 +49,9 @@ const Header = () => {
                                 <>
                                     <li>
                                         <Link
+                                            onClick={
+                                                handleModalView
+                                            }
                                             className="text-white hidden bg-primary hover:bg-primary-dark px-3 py-1 rounded-full md:flex justify-center items-center gap-3 transform duration-200 text-2xl"
                                             to="#">
                                             <MdPostAdd />{" "}
