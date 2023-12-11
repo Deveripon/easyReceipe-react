@@ -1,8 +1,9 @@
 import { useContext } from "react";
 import { MdPostAdd } from "react-icons/md";
 import { ModalContext } from "../../context/ModalContext";
-const { handleModalView } = useContext(ModalContext);
+
 const CreateButton = () => {
+    const { handleModalView } = useContext(ModalContext);
     return (
         <>
             <button
