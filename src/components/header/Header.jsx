@@ -3,14 +3,15 @@ import { BiBookmarkHeart } from "react-icons/bi";
 import { HiMiniBellAlert } from "react-icons/hi2";
 import { FaUserCircle } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
+import { MdPostAdd } from "react-icons/md";
 
 const Header = () => {
-    const isLoggedIn = false;
+    const isLoggedIn = true;
     const location = useLocation();
 
     return (
         <>
-            <section className="header-section bg-pink-50 shadow">
+            <section className="header-section bg-pink-50 shadow sticky top-0 z-50">
                 <div className="container flex justify-between items-center py-4 ">
                     <div className="brand">
                         <Link to="/">
@@ -44,6 +45,17 @@ const Header = () => {
                             )}
                             {isLoggedIn && (
                                 <>
+                                    <li>
+                                        <Link
+                                            className="text-white hidden bg-primary hover:bg-primary-dark px-3 py-1 rounded-full md:flex justify-center items-center gap-3 transform duration-200 text-2xl"
+                                            to="#">
+                                            <MdPostAdd />{" "}
+                                            <span className="text-[16px]">
+                                                Post a
+                                                Receipe
+                                            </span>
+                                        </Link>
+                                    </li>
                                     <li>
                                         <Link
                                             className="hover:text-primary-light transform duration-200 text-2xl"

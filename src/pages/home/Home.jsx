@@ -1,4 +1,5 @@
 import AllReceipe from "../../components/AllReceipe/AllReceipe";
+import CreateButton from "../../components/CreateButton/CreateButton";
 import Footer from "../../components/Footer/Footer";
 import OurPartner from "../../components/Partners/OurPartner";
 import VarifiedChefs from "../../components/VerifiedChefs/VarifiedChefs";
@@ -16,6 +17,7 @@ const Home = () => {
             <VarifiedChefs />
             <OurPartner />
             <Footer />
+            <CreateButton />
         </>
     );
 };
