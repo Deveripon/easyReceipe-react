@@ -11,7 +11,7 @@ const SignUpForm = () => {
                         </label>
                         <input
                             type="text"
-                            className="form-control w-full  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control w-full  text-sm outline-none px-4  py-4 rounded text-primary"
                             id="name"
                             name="name"
                             placeholder="Enter your name"
@@ -23,7 +23,7 @@ const SignUpForm = () => {
                         </label>
                         <input
                             type="text"
-                            className="form-control w-full  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control w-full  text-sm  outline-none px-4   py-4 rounded text-primary"
                             id="email"
                             placeholder="Enter your name"
                             name="email"
@@ -35,7 +35,7 @@ const SignUpForm = () => {
                         </label>
                         <input
                             type="text"
-                            className="form-control w-full  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control w-full  text-sm  -none outline-none px-4   py-4 rounded text-primary"
                             id="cell"
                             placeholder="Enter your cell"
                             name="cell"
@@ -47,20 +47,20 @@ const SignUpForm = () => {
                         </label>
                         <input
                             type="password"
-                            className="form-control w-full  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control w-full  text-sm  -none outline-none px-4   py-4 rounded text-primary"
                             id="email"
                             placeholder="Enter your Password"
                             name="pass"
                         />
                     </div>
-                    <div className="form-group mb-2 w-[80%] m-auto flex gap-3 justify-between items-center">
-                        <label className="w-16 form-label self-start text-sm" htmlFor="password">
+                    <div className="form-group mb-2 w-[80%] m-auto flex gap-3  items-center">
+                        <label className="w-16 form-label  text-sm" htmlFor="password">
                             Gender
                         </label>
-                        <div className="gender-group ml-3">
-                            <label className="px-3" htmlFor="male">
+                        <div className="gender-group flex gap-5">
+                            <label className=" flex gap-1" htmlFor="male">
                                 <input
-                                    className="ml-3"
+                                    className=""
                                     type="radio"
                                     value="Male"
                                     name="gender"
@@ -68,9 +68,9 @@ const SignUpForm = () => {
                                 />
                                 Male
                             </label>
-                            <label className="px-3 mr-2" htmlFor="female">
+                            <label className=" flex gap-1" htmlFor="female">
                                 <input
-                                    className="ml-3"
+                                    className=""
                                     type="radio"
                                     value="Female"
                                     name="gender"
@@ -85,7 +85,7 @@ const SignUpForm = () => {
                             Location
                         </label>
                         <select
-                            className="form-control w-full  text-sm  border-none outline-none px-6 py-2 rounded text-primary"
+                            className="form-control w-full  text-sm  border-none outline-none px-6   py-4 rounded text-primary"
                             name="location"
                             id="location">
                             <option value="">Select Your Location</option>
@@ -103,7 +103,7 @@ const SignUpForm = () => {
                     </p>
                     <div className="submit w-48 m-auto">
                         <button
-                            className="bg-primary rounded w-48 text-white transform duration-200 hover:bg-primary-light py-2 my-10 "
+                            className="bg-primary rounded w-48 text-white transform duration-200 hover:bg-primary-light   py-4 my-10 "
                             type="submit">
                             Signup
                         </button>

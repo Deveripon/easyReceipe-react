@@ -3,19 +3,15 @@ import { Link } from "react-router-dom";
 const LoginForm = () => {
     return (
         <>
-            <div className="login-form  w-full md:w-80  rounded-md shadow">
-                <form
-                    action=""
-                    className="reg-from mt-7 pt-8">
-                    <div className="form-group mb-2 flex  gap-3 justify-center items-center">
-                        <label
-                            className="w-16 form-label text-sm"
-                            htmlFor="uid">
+            <div className="login-form  w-full md:w-[80%]  rounded-md shadow">
+                <form action="" className="reg-from w-[80%] m-auto mt-7 pt-8">
+                    <div className="form-group m-auto mb-2 flex  gap-3 justify-center items-center">
+                        <label className="w-16 form-label text-sm" htmlFor="uid">
                             Email or Phone
                         </label>
                         <input
                             type="text"
-                            className="form-control  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control  text-sm  w-full outline-none px-4 py-4 rounded text-primary"
                             id="uid"
                             placeholder="Email address or Phone"
                             name="uid"
@@ -23,14 +19,12 @@ const LoginForm = () => {
                     </div>
 
                     <div className="form-group mb-2 flex gap-3 justify-center items-center">
-                        <label
-                            className="w-16 form-label text-sm"
-                            htmlFor="password">
+                        <label className="w-16 form-label text-sm" htmlFor="password">
                             Password
                         </label>
                         <input
                             type="password"
-                            className="form-control  text-sm  -none outline-none px-4 py-2 rounded text-primary"
+                            className="form-control  text-sm w-full outline-none px-4 py-4 rounded text-primary"
                             id="email"
                             placeholder="Enter your Password"
                             name="pass"
@@ -43,9 +37,7 @@ const LoginForm = () => {
                             Forgot password? <br />
                         </Link>
                         or <br />
-                        <Link
-                            className="text-primary hover:underline"
-                            to="/accounts/signup">
+                        <Link className="text-primary hover:underline" to="/accounts/signup">
                             create a new account
                         </Link>
                     </p>
