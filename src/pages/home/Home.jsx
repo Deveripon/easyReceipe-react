@@ -12,21 +12,18 @@ import { ModalContext } from "../../context/ModalContext";
 
 const Home = () => {
     const { modal } = useContext(ModalContext);
-
+    const isLoggedIn = false;
     return (
         <div>
             <Meta title="EasyReceipe | Home" />
-            <div
-                className={`main relative ${
-                    modal === true ? "max-h-0" : ""
-                } overflow-hidden`}>
+            <div className={`main relative ${modal === true ? "max-h-0" : ""} overflow-hidden`}>
                 <FeaturedReceipe />
                 <TodayReceipe />
                 <AllReceipe />
                 <VarifiedChefs />
                 <OurPartner />
                 <Footer />
-                <CreateButton />
+                {isLoggedIn ? <CreateButton /> : ""}
             </div>
 
             <CreateReceipeModal />
