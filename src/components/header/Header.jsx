@@ -8,7 +8,7 @@ import { useContext } from "react";
 import { ModalContext } from "../../context/ModalContext";
 
 const Header = () => {
-    const isLoggedIn = true;
+    const isLoggedIn = false;
     const location = useLocation();
     const { handleModalView } = useContext(ModalContext);
     return (
@@ -19,9 +19,7 @@ const Header = () => {
                         <Link to="/">
                             <h1 className="text-textColor max-xxs:text-[15px] text-[20px] md:text-[32px] border border-primary px-4 rounded-xl">
                                 Easy
-                                <span className="text-primary">
-                                    Receipe
-                                </span>
+                                <span className="text-primary">Receipe</span>
                             </h1>
                         </Link>
                     </div>
@@ -29,8 +27,7 @@ const Header = () => {
                         <ul className="flex justify-center items-center gap-3 md:gap-10 text-textColor">
                             {isLoggedIn || (
                                 <li>
-                                    {location.pathname ==
-                                    "/accounts/signup" ? (
+                                    {location.pathname == "/accounts/signup" ? (
                                         <Link
                                             className="primary-button px-5 py-1"
                                             to="/accounts/login">
@@ -49,16 +46,11 @@ const Header = () => {
                                 <>
                                     <li>
                                         <Link
-                                            onClick={
-                                                handleModalView
-                                            }
+                                            onClick={handleModalView}
                                             className="text-white hidden bg-primary hover:bg-primary-dark px-3 py-1 rounded-full md:flex justify-center items-center gap-3 transform duration-200 text-2xl"
                                             to="#">
                                             <MdPostAdd />{" "}
-                                            <span className="text-[16px]">
-                                                Post a
-                                                Receipe
-                                            </span>
+                                            <span className="text-[16px]">Post a Receipe</span>
                                         </Link>
                                     </li>
                                     <li>
