@@ -6,7 +6,7 @@ const LoginForm = () => {
             <div className="login-form  w-full md:w-[80%]  rounded-md shadow">
                 <form action="" className="reg-from w-[80%] m-auto mt-7 pt-8">
                     <div className="form-group m-auto mb-2 flex  gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="uid">
+                        <label className=" w-20 form-label text-sm" htmlFor="uid">
                             Email or Phone
                         </label>
                         <input
@@ -19,7 +19,7 @@ const LoginForm = () => {
                     </div>
 
                     <div className="form-group mb-2 flex gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="password">
+                        <label className=" w-20 form-label text-sm" htmlFor="password">
                             Password
                         </label>
                         <input

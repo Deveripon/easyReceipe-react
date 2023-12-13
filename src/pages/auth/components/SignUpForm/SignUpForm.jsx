@@ -6,7 +6,7 @@ const SignUpForm = () => {
             <div className="signup-form w-full md:w-[calc(80%)] rounded-md shadow">
                 <form action="" className="reg-from mt-7 pt-8">
                     <div className="form-group mb-2 w-[80%] m-auto flex gap-3 justify-center items-center">
-                        <label className="form-label  w-16 text-sm" htmlFor="name">
+                        <label className="form-label   w-20 text-sm" htmlFor="name">
                             Name
                         </label>
                         <input
@@ -18,7 +18,7 @@ const SignUpForm = () => {
                         />
                     </div>
                     <div className="form-group w-[80%] m-auto mb-2 flex gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="email">
+                        <label className=" w-20 form-label text-sm" htmlFor="email">
                             Email
                         </label>
                         <input
@@ -30,7 +30,7 @@ const SignUpForm = () => {
                         />
                     </div>
                     <div className="form-group w-[80%] m-auto mb-2 flex gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="cell">
+                        <label className=" w-20 form-label text-sm" htmlFor="cell">
                             Cell
                         </label>
                         <input
@@ -42,7 +42,7 @@ const SignUpForm = () => {
                         />
                     </div>
                     <div className="form-group w-[80%] m-auto mb-2 flex gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="password">
+                        <label className=" w-20 form-label text-sm" htmlFor="password">
                             Password
                         </label>
                         <input
@@ -54,7 +54,7 @@ const SignUpForm = () => {
                         />
                     </div>
                     <div className="form-group mb-2 w-[80%] m-auto flex gap-3  items-center">
-                        <label className="w-16 form-label  text-sm" htmlFor="password">
+                        <label className=" w-20 form-label  text-sm" htmlFor="password">
                             Gender
                         </label>
                         <div className="gender-group flex gap-5">
@@ -81,7 +81,7 @@ const SignUpForm = () => {
                         </div>
                     </div>
                     <div className="form-group mb-2 w-[80%] m-auto flex gap-3 justify-center items-center">
-                        <label className="w-16 form-label text-sm" htmlFor="location">
+                        <label className=" w-20 form-label text-sm" htmlFor="location">
                             Location
                         </label>
                         <select
