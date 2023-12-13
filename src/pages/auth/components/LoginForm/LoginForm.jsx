@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import toast from "react-hot-toast";
+import { toast } from "react-hot-toast";
 
 const LoginForm = () => {
     const [formData, setFormData] = useState({
-        userId: "riponmiah858@gmail.com",
-        password: "123",
+        userId: "",
+        password: "",
     });
     const handleFormData = (e) => {
         setFormData((prevState) => ({
