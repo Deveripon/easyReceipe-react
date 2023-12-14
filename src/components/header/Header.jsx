@@ -8,7 +8,7 @@ import { useContext } from "react";
 import { ModalContext } from "../../context/ModalContext";
 
 const Header = () => {
-    const isLoggedIn = false;
+    const isLoggedIn = true;
     const location = useLocation();
     const { handleModalView } = useContext(ModalContext);
     return (

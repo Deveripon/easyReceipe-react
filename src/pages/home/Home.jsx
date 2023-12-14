@@ -12,7 +12,7 @@ import { ModalContext } from "../../context/ModalContext";
 
 const Home = () => {
     const { modal } = useContext(ModalContext);
-    const isLoggedIn = false;
+    const isLoggedIn = true;
     return (
         <div>
             <Meta title="EasyReceipe | Home" />
