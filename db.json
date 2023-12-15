@@ -1,0 +1,20 @@
+{
+    "receipe": [
+        {
+            "name": "Pecan Pesto with Smoked Oyster Mushrooms & Wild Rice",
+            "ingridients": "3 cups fresh nettle leaves, 2 cloves garlic or to taste,1/4 cup olive oil,2 tablespoon lemon juice,1/2 cup of pecans,salt & pepper",
+            "receipe": " Boil the nettle leaves for 30 to 60 seconds to remove stickers.\n\n Remove the nettle leaves from the boiling water and drain, squeezing out the excess water with tongs.\n\n Place the nettles, garlic, olive oil, and pecans into your mortar & pestle (or food processor).  Grind until you reach the desired consistency.\n\n Add salt & pepper to taste.  Set aside.",
+            "photo": "https://images.squarespace-cdn.com/content/v1/5d5577ab9ce6c9000153aa4f/ad700fc6-04d6-49be-8005-96dc2a8ae189/Final+Dish.jpg?format=750w",
+            "id": 2
+        },
+        {
+            "name": "Wild Rice with Corn & Poblano Peppers",
+            "ingridients": "1 large poblano\n\n1/2 cup corn\n\n1 cup wild rice\n\n1/2 tablespoon sunflower oil\n\n1 tablespoon fresh thyme\n\n2 cloves garlic, smashed\n\n2.5 cups vegetable broth\n\n1/2 teaspoon black pepper\n\n1/2 teaspoon salt",
+            "receipe": " On an open gas top flame or a cast iron skillet, roast the peppers and corn, rotating every 2-3 minutes until all sides are nicely charred.  Remove from heat.  Place peppers in a bowl and cover with a plate to allow to steam and soften (approx. 5 minutes).\n\n Meanwhile, in a saucepan over medium heat, add sunflower oil, thyme, and garlic and sauté for 1 minute.\n\n Add wild rice and stir to coat well.  Allow rice to toast slightly by stirring occasionally for one minute.\n\n Add vegetable broth and bring the mixture to a low boil.  Reduce to simmer.  Cover and cook for 20-35 minutes.\n\n While the rice cooks, prepare the peppers and corn.  Dice the pepper, cutting off stems and scraping out seeds. Leave the skin on the pepper for more flavor.  Remove corn from the cob by placing the flat side of the cob against a surface and running a knife down the side of the cob removing the kernels. \n\n Once the rice is fully cooked, fold in the peppers and corn.",
+            "photo": "https://patijinich.com/wp-content/uploads/2021/09/Rice-with-Poblanos-and-Corn-500x500.jpg",
+            "types": "mexican,rice",
+            "id": 3
+        }
+    ],
+    "users": []
+}
