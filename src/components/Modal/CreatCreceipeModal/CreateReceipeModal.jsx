@@ -1,24 +1,15 @@
 import { useContext, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { ModalContext } from "../../../context/ModalContext";
-import toast from "react-hot-toast";
+
 const CreateReceipeModal = () => {
     const { modal, handleModalClose } = useContext(ModalContext);
-
-    const [receipePhoto, setReceipePhoto] = useState([]);
-    const handleReceipePhoto = (e) => {
-        setReceipePhoto((prevState) => [...prevState, ...Array.from(e.target.files)]);
-    };
-
-    const handlePhotoRemove = (item) => {
-        const newPhotos = receipePhoto.filter((file) => file !== item);
-        setReceipePhoto(newPhotos);
-    };
 
     const [formData, setFormData] = useState({
         name: "",
         ingridients: "",
         receipe: "",
+        types: [],
         photos: [],
     });
     const handleFormData = (e) => {
@@ -28,10 +19,24 @@ const CreateReceipeModal = () => {
         }));
     };
 
+    const [checkBox, setCheckBox] = useState([]);
+    const handleCheckBox = (e) => {
+        if (checkBox.includes(e.target.value)) {
+            setCheckBox(checkBox.filter((item) => item !== e.target.value));
+        } else {
+            setCheckBox([...checkBox, e.target.value]);
+        }
+    };
+    const [photos, setPhotos] = useState([]);
+    const handlePhotoUpload = (e) => {
+        setPhotos((prevState) => [...photos, ...Array.from(e.target.files)]);
+    };
+
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        formData.photos = [...photos];
+        formData.types = [...checkBox];
         console.log(formData);
-        alert("Receipe added successfully");
     };
 
     return (
@@ -96,6 +101,85 @@ const CreateReceipeModal = () => {
                                 />
                             </div>
                             <div className="form-group w-full flex gap-1 flex-col">
+                                <label htmlFor="receipe" className="text-gray-600">
+                                    What is your receipe type?
+                                </label>
+                                <div className="type-wrapper border bg-white border-gray-100 rounded-md">
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Classic")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="classic"
+                                            id="classic"
+                                            value="Classic"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="classic">Classic</label>
+                                    </div>
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Thai")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="Thai"
+                                            id="Thai"
+                                            value="Thai"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="Thai">Thai</label>
+                                    </div>
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Italian")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="Italian"
+                                            id="Italian"
+                                            value="Italian"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="Italian">Italian</label>
+                                    </div>
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Chineese")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="Chineese"
+                                            id="Chineese"
+                                            value="Chineese"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="Chineese">Chineese</label>
+                                    </div>
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Soup")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="Soup"
+                                            id="Soup"
+                                            value="Soup"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="Soup">Soup</label>
+                                    </div>
+                                    <div className="input-group p-2">
+                                        <input
+                                            checked={checkBox.includes("Vegeterian")}
+                                            className="p-2"
+                                            type="checkbox"
+                                            name="Vegeterian"
+                                            id="Vegeterian"
+                                            value="Vegeterian"
+                                            onClick={handleCheckBox}
+                                        />{" "}
+                                        <label htmlFor="Vegeterian">Vegeterian</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="form-group w-full flex gap-1 flex-col">
                                 <label htmlFor="photo" className="text-gray-600">
                                     Attach Receipe Photo
                                 </label>
@@ -110,34 +194,39 @@ const CreateReceipeModal = () => {
                                     name="photo"
                                     id="photo"
                                     multiple
-                                    onChange={handleReceipePhoto}
+                                    onChange={handlePhotoUpload}
                                 />
                             </div>
                             <div className="photo-preview-box flex flex-wrap gap-3 justify-start items-center">
-                                {receipePhoto.map((item, index) => {
+                                {photos.map((item, index) => {
+                                    const imgUrl = URL.createObjectURL(item);
                                     return (
                                         <div
                                             key={index}
                                             className="item w-[48%] md:w-[32%] relative">
                                             <button
-                                                onClick={() => handlePhotoRemove(item)}
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setPhotos(
+                                                        photos.filter((photo) => photo !== item)
+                                                    );
+                                                }}
                                                 className="absolute text-white rounded-full hover:bg-gray-600  transform duration-100 text-[25px] top-1 right-1">
                                                 <IoCloseOutline />
                                             </button>
                                             <img
                                                 className="w-full h-[100px] md:h-[200px] object-cover object-top rounded-md"
-                                                src={URL.createObjectURL(item)}
+                                                src={imgUrl}
                                                 alt="receipe image"
                                             />
                                         </div>
                                     );
                                 })}
                             </div>
-                            <button
+                            <input
                                 type="submit"
-                                className=" bg-primary w-full py-2 rounded-full text-white hover:bg-primary-dark transform duration-100">
-                                Post
-                            </button>
+                                value="Post"
+                                className=" bg-primary w-full py-2 rounded-full text-white hover:bg-primary-dark transform duration-100"></input>
                         </form>
                     </div>
                 </div>
