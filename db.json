@@ -21,6 +21,14 @@
             "receipe": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 8 to 10 minutes. Drain bacon slices on paper towels; crumble and set aside.\n\nMeanwhile, melt butter in a stockpot or Dutch oven over medium heat. Gradually add flour, whisking until well-combined. Slowly pour in milk, whisking constantly until smooth and thickened.\n\nAdd potatoes and onions and bring to a boil, stirring frequently. Reduce heat and simmer for 10 minutes.\n\nStir in crumbled bacon, Cheddar cheese, sour cream, salt, and pepper. Continue cooking and stirring until cheese is melted.",
             "photo": "https://www.allrecipes.com/thmb/nEM9EwRCi53gaDkuHEPoF59pRnQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/baked-potato-soup-4x3-allrecipes-video-bf1bdf9a8578448c85683ad7eb0fbfe5.jpg",
             "types": "mexican,rice",
+            "id": 4
+        },
+        {
+            "name": "Baked Potato Soup",
+            "ingridients": "12 slices bacon\n\n⅔ cup butter\n\n⅔ cup all-purpose flour\n\n7 cups milk\n\n4 large baked potatoes, peeled and cubed\n\n4 green onions, chopped\n\n1 ¼ cups shredded Cheddar cheese\n\n1 cup sour cream\n\n1 teaspoon salt\n\n1 teaspoon ground black pepper",
+            "receipe": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 8 to 10 minutes. Drain bacon slices on paper towels; crumble and set aside.\n\nMeanwhile, melt butter in a stockpot or Dutch oven over medium heat. Gradually add flour, whisking until well-combined. Slowly pour in milk, whisking constantly until smooth and thickened.\n\nAdd potatoes and onions and bring to a boil, stirring frequently. Reduce heat and simmer for 10 minutes.\n\nStir in crumbled bacon, Cheddar cheese, sour cream, salt, and pepper. Continue cooking and stirring until cheese is melted.",
+            "photo": "https://www.allrecipes.com/thmb/nEM9EwRCi53gaDkuHEPoF59pRnQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/baked-potato-soup-4x3-allrecipes-video-bf1bdf9a8578448c85683ad7eb0fbfe5.jpg",
+            "types": "mexican,rice",
             "id": 5
         },
         {
@@ -30,6 +38,14 @@
             "photo": "https://www.allrecipes.com/thmb/OHDw5u97mhPzVeM2mA3k8OesnvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21176-baked-dijon-salmon-DDMFS-4x3-008cff0c384f4282bd21eb439758e26c.jpg",
             "types": "mexican,rice",
             "id": 6
+        },
+        {
+            "name": "Baked Dijon Salmon",
+            "ingridients": "¼ cup butter, melted\n\n3 tablespoons Dijon mustard\n\n1 ½ tablespoons honey\n\n¼ cup dry bread crumbs\n\n¼ cup finely chopped pecans\n\n4 teaspoons chopped fresh parsley\n\n4 (4 ounce) fillets salmon\n\nsalt and pepper to taste\n\n1 lemon, for garnish",
+            "receipe": "Preheat the oven to 400 degrees F (200 degrees C).\n\nStir together butter, mustard, and honey in a small bowl. Set aside.\n\nOverhead shot of a bowl of Dijon mustard sauce for salmon\nDOTDASH MEREDITH FOOD STUDIOS\nMix together bread crumbs,.\n\nmid angle looking at a sheet pan of baked dijon salmon fillets with a fork-full taken off one fillet\n",
+            "photo": "https://www.allrecipes.com/thmb/OHDw5u97mhPzVeM2mA3k8OesnvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21176-baked-dijon-salmon-DDMFS-4x3-008cff0c384f4282bd21eb439758e26c.jpg",
+            "types": "mexican,rice",
+            "id": 7
         },
         {
             "name": "Grandma's Hamburger Casserole",
