@@ -1,20 +1,68 @@
 {
-    "receipe": [
-        {
-            "name": "Pecan Pesto with Smoked Oyster Mushrooms & Wild Rice",
-            "ingridients": "3 cups fresh nettle leaves, 2 cloves garlic or to taste,1/4 cup olive oil,2 tablespoon lemon juice,1/2 cup of pecans,salt & pepper",
-            "receipe": " Boil the nettle leaves for 30 to 60 seconds to remove stickers.\n\n Remove the nettle leaves from the boiling water and drain, squeezing out the excess water with tongs.\n\n Place the nettles, garlic, olive oil, and pecans into your mortar & pestle (or food processor).  Grind until you reach the desired consistency.\n\n Add salt & pepper to taste.  Set aside.",
-            "photo": "https://images.squarespace-cdn.com/content/v1/5d5577ab9ce6c9000153aa4f/ad700fc6-04d6-49be-8005-96dc2a8ae189/Final+Dish.jpg?format=750w",
-            "id": 2
-        },
-        {
-            "name": "Wild Rice with Corn & Poblano Peppers",
-            "ingridients": "1 large poblano\n\n1/2 cup corn\n\n1 cup wild rice\n\n1/2 tablespoon sunflower oil\n\n1 tablespoon fresh thyme\n\n2 cloves garlic, smashed\n\n2.5 cups vegetable broth\n\n1/2 teaspoon black pepper\n\n1/2 teaspoon salt",
-            "receipe": " On an open gas top flame or a cast iron skillet, roast the peppers and corn, rotating every 2-3 minutes until all sides are nicely charred.  Remove from heat.  Place peppers in a bowl and cover with a plate to allow to steam and soften (approx. 5 minutes).\n\n Meanwhile, in a saucepan over medium heat, add sunflower oil, thyme, and garlic and sauté for 1 minute.\n\n Add wild rice and stir to coat well.  Allow rice to toast slightly by stirring occasionally for one minute.\n\n Add vegetable broth and bring the mixture to a low boil.  Reduce to simmer.  Cover and cook for 20-35 minutes.\n\n While the rice cooks, prepare the peppers and corn.  Dice the pepper, cutting off stems and scraping out seeds. Leave the skin on the pepper for more flavor.  Remove corn from the cob by placing the flat side of the cob against a surface and running a knife down the side of the cob removing the kernels. \n\n Once the rice is fully cooked, fold in the peppers and corn.",
-            "photo": "https://patijinich.com/wp-content/uploads/2021/09/Rice-with-Poblanos-and-Corn-500x500.jpg",
-            "types": "mexican,rice",
-            "id": 3
-        }
-    ],
-    "users": []
+  "receipe": [
+    {
+      "name": "Pecan Pesto with Smoked Oyster Mushrooms & Wild Rice",
+      "ingridients": "3 cups fresh nettle leaves, 2 cloves garlic or to taste,1/4 cup olive oil,2 tablespoon lemon juice,1/2 cup of pecans,salt & pepper",
+      "receipe": " Boil the nettle leaves for 30 to 60 seconds to remove stickers.\n\n Remove the nettle leaves from the boiling water and drain, squeezing out the excess water with tongs.\n\n Place the nettles, garlic, olive oil, and pecans into your mortar & pestle (or food processor).  Grind until you reach the desired consistency.\n\n Add salt & pepper to taste.  Set aside.",
+      "photo": "https://images.squarespace-cdn.com/content/v1/5d5577ab9ce6c9000153aa4f/ad700fc6-04d6-49be-8005-96dc2a8ae189/Final+Dish.jpg?format=750w",
+      "id": 2
+    },
+    {
+      "name": "Wild Rice with Corn & Poblano Peppers",
+      "ingridients": "1 large poblano\n\n1/2 cup corn\n\n1 cup wild rice\n\n1/2 tablespoon sunflower oil\n\n1 tablespoon fresh thyme\n\n2 cloves garlic, smashed\n\n2.5 cups vegetable broth\n\n1/2 teaspoon black pepper\n\n1/2 teaspoon salt",
+      "receipe": " On an open gas top flame or a cast iron skillet, roast the peppers and corn, rotating every 2-3 minutes until all sides are nicely charred.  Remove from heat.  Place peppers in a bowl and cover with a plate to allow to steam and soften (approx. 5 minutes).\n\n Meanwhile, in a saucepan over medium heat, add sunflower oil, thyme, and garlic and sauté for 1 minute.\n\n Add wild rice and stir to coat well.  Allow rice to toast slightly by stirring occasionally for one minute.\n\n Add vegetable broth and bring the mixture to a low boil.  Reduce to simmer.  Cover and cook for 20-35 minutes.\n\n While the rice cooks, prepare the peppers and corn.  Dice the pepper, cutting off stems and scraping out seeds. Leave the skin on the pepper for more flavor.  Remove corn from the cob by placing the flat side of the cob against a surface and running a knife down the side of the cob removing the kernels. \n\n Once the rice is fully cooked, fold in the peppers and corn.",
+      "photo": "https://patijinich.com/wp-content/uploads/2021/09/Rice-with-Poblanos-and-Corn-500x500.jpg",
+      "types": "mexican,rice",
+      "id": 3
+    },
+    {
+      "name": "Baked Potato Soup",
+      "ingridients": "12 slices bacon\n\n⅔ cup butter\n\n⅔ cup all-purpose flour\n\n7 cups milk\n\n4 large baked potatoes, peeled and cubed\n\n4 green onions, chopped\n\n1 ¼ cups shredded Cheddar cheese\n\n1 cup sour cream\n\n1 teaspoon salt\n\n1 teaspoon ground black pepper",
+      "receipe": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 8 to 10 minutes. Drain bacon slices on paper towels; crumble and set aside.\n\nMeanwhile, melt butter in a stockpot or Dutch oven over medium heat. Gradually add flour, whisking until well-combined. Slowly pour in milk, whisking constantly until smooth and thickened.\n\nAdd potatoes and onions and bring to a boil, stirring frequently. Reduce heat and simmer for 10 minutes.\n\nStir in crumbled bacon, Cheddar cheese, sour cream, salt, and pepper. Continue cooking and stirring until cheese is melted.",
+      "photo": "https://www.allrecipes.com/thmb/nEM9EwRCi53gaDkuHEPoF59pRnQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/baked-potato-soup-4x3-allrecipes-video-bf1bdf9a8578448c85683ad7eb0fbfe5.jpg",
+      "types": "mexican,rice",
+      "id": 4
+    },
+    {
+      "name": "Baked Potato Soup",
+      "ingridients": "12 slices bacon\n\n⅔ cup butter\n\n⅔ cup all-purpose flour\n\n7 cups milk\n\n4 large baked potatoes, peeled and cubed\n\n4 green onions, chopped\n\n1 ¼ cups shredded Cheddar cheese\n\n1 cup sour cream\n\n1 teaspoon salt\n\n1 teaspoon ground black pepper",
+      "receipe": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 8 to 10 minutes. Drain bacon slices on paper towels; crumble and set aside.\n\nMeanwhile, melt butter in a stockpot or Dutch oven over medium heat. Gradually add flour, whisking until well-combined. Slowly pour in milk, whisking constantly until smooth and thickened.\n\nAdd potatoes and onions and bring to a boil, stirring frequently. Reduce heat and simmer for 10 minutes.\n\nStir in crumbled bacon, Cheddar cheese, sour cream, salt, and pepper. Continue cooking and stirring until cheese is melted.",
+      "photo": "https://www.allrecipes.com/thmb/nEM9EwRCi53gaDkuHEPoF59pRnQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/baked-potato-soup-4x3-allrecipes-video-bf1bdf9a8578448c85683ad7eb0fbfe5.jpg",
+      "types": "mexican,rice",
+      "id": 5
+    },
+    {
+      "name": "Baked Dijon Salmon",
+      "ingridients": "¼ cup butter, melted\n\n3 tablespoons Dijon mustard\n\n1 ½ tablespoons honey\n\n¼ cup dry bread crumbs\n\n¼ cup finely chopped pecans\n\n4 teaspoons chopped fresh parsley\n\n4 (4 ounce) fillets salmon\n\nsalt and pepper to taste\n\n1 lemon, for garnish",
+      "receipe": "Preheat the oven to 400 degrees F (200 degrees C).\n\nStir together butter, mustard, and honey in a small bowl. Set aside.\n\nOverhead shot of a bowl of Dijon mustard sauce for salmon\nDOTDASH MEREDITH FOOD STUDIOS\nMix together bread crumbs, pecans, and parsley in another bowl.\n\nOverhead shot of a bowl of pecans and bread crumbs for a salmon coating\nDOTDASH MEREDITH FOOD STUDIOS\nBrush each salmon fillet lightly with honey mustard mixture.\n\nOverhead shot of salmon brushed with Dijon sauce\nDOTDASH MEREDITH FOOD STUDIOS\nSprinkle the tops of fillets with bread crumb mixture.\n\nOverhead shot of Dijon salmon with coating on a baking sheet\nDOTDASH MEREDITH FOOD STUDIOS\nBake salmon in the preheated oven until it flakes easily with a fork, 12 to 15 minutes. Season with salt and pepper, and garnish with a wedge of lemon.\n\nmid angle looking at a sheet pan of baked dijon salmon fillets with a fork-full taken off one fillet\n",
+      "photo": "https://www.allrecipes.com/thmb/OHDw5u97mhPzVeM2mA3k8OesnvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21176-baked-dijon-salmon-DDMFS-4x3-008cff0c384f4282bd21eb439758e26c.jpg",
+      "types": "mexican,rice",
+      "id": 6
+    },
+    {
+      "name": "Baked Dijon Salmon",
+      "ingridients": "¼ cup butter, melted\n\n3 tablespoons Dijon mustard\n\n1 ½ tablespoons honey\n\n¼ cup dry bread crumbs\n\n¼ cup finely chopped pecans\n\n4 teaspoons chopped fresh parsley\n\n4 (4 ounce) fillets salmon\n\nsalt and pepper to taste\n\n1 lemon, for garnish",
+      "receipe": "Preheat the oven to 400 degrees F (200 degrees C).\n\nStir together butter, mustard, and honey in a small bowl. Set aside.\n\nOverhead shot of a bowl of Dijon mustard sauce for salmon\nDOTDASH MEREDITH FOOD STUDIOS\nMix together bread crumbs, pecans, and parsley in another bowl.\n\nOverhead shot of a bowl of pecans and bread crumbs for a salmon coating\nDOTDASH MEREDITH FOOD STUDIOS\nBrush each salmon fillet lightly with honey mustard mixture.\n\nOverhead shot of salmon brushed with Dijon sauce\nDOTDASH MEREDITH FOOD STUDIOS\nSprinkle the tops of fillets with bread crumb mixture.\n\nOverhead shot of Dijon salmon with coating on a baking sheet\nDOTDASH MEREDITH FOOD STUDIOS\nBake salmon in the preheated oven until it flakes easily with a fork, 12 to 15 minutes. Season with salt and pepper, and garnish with a wedge of lemon.\n\nmid angle looking at a sheet pan of baked dijon salmon fillets with a fork-full taken off one fillet\n",
+      "photo": "https://www.allrecipes.com/thmb/OHDw5u97mhPzVeM2mA3k8OesnvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21176-baked-dijon-salmon-DDMFS-4x3-008cff0c384f4282bd21eb439758e26c.jpg",
+      "types": "mexican,rice",
+      "id": 7
+    },
+    {
+      "name": "Grandma's Hamburger Casserole",
+      "ingridients": "1 pound ground beef\n\n2 (15 ounce) cans tomato sauce\n\n1 teaspoon white sugar, or to taste\n\n1 teaspoon garlic salt, or to taste\n\n1 teaspoon salt, or to taste\n\n1 (8 ounce) package egg noodles\n\n1 cup sour cream\n\n3 ounces cream cheese, softened\n\n1 large white onion, finely diced\n\n½ cup shredded sharp Cheddar cheese, or more to taste",
+      "photo": "https://www.allrecipes.com/thmb/3UfkvSROIh3sokNclB6F4MpJFVo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/231808-GrandmasGroundbeefCasserole-mfs-Step-6-28c451327c1e448582675ae8fe92c415.jpg",
+      "types": "mexican,rice",
+      "receipe": "Heat a large skillet over medium-high heat. Cook and stir ground beef in the hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease.\n\nGround beef cooking until browned and crumbly.\nDOTDASH MEREDITH FOOD STUDIOS\nMix tomato sauce, sugar, garlic salt, and salt into the ground beef; simmer until flavors blend, about 20 minutes. Remove from the heat and cover the skillet.\n\nTomato sauce, garlic salt, sugar and salt mixed together with the ground beef.\nDOTDASH MEREDITH FOOD STUDIOS\nWhile the sauce is cooking, bring a large pot of lightly salted water to a boil. Cook egg noodles in the boiling water, stirring occasionally until cooked through but firm to the bite, 7 to 9 minutes. Drain.\n\nWhile the egg noodles are cooking, preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch casserole dish.\n\nMix sour cream, cream cheese, and onion together in a bowl.\n\nSour cream, cream cheese and onion mixed together in a bowl.\nDOTDASH MEREDITH FOOD STUDIOS\nLayer 1/2 of the egg noodles into the prepared casserole dish. Top with 1/2 of the sour cream mixture, then 1/2 of the ground beef mixture. Repeat layers once more. Sprinkle Cheddar cheese over top.\n\nAll ingredients layered together in prepared baking dish.\nDOTDASH MEREDITH FOOD STUDIOS\nCheddar cheese sprinkled over top.\nDOTDASH MEREDITH FOOD STUDIOS\nBake in the preheated oven until cheese is melted and golden brown, 25 to 30 minutes.\n\nA high angle looking at grandma's ground beef casserole.\nDOTDASH MEREDITH FOOD STUDIOS\n",
+      "id": 8
+    },
+    {
+      "name": "Grandma's Hamburger Casserole",
+      "ingridients": "1 pound ground beef\n\n2 (15 ounce) cans tomato sauce\n\n1 teaspoon white sugar, or to taste\n\n1 teaspoon garlic salt, or to taste\n\n1 teaspoon salt, or to taste\n\n1 (8 ounce) package egg noodles\n\n1 cup sour cream\n\n3 ounces cream cheese, softened\n\n1 large white onion, finely diced\n\n½ cup shredded sharp Cheddar cheese, or more to taste",
+      "photo": "https://www.allrecipes.com/thmb/3UfkvSROIh3sokNclB6F4MpJFVo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/231808-GrandmasGroundbeefCasserole-mfs-Step-6-28c451327c1e448582675ae8fe92c415.jpg",
+      "types": "mexican,rice",
+      "receipe": "Heat a large skillet over medium-high heat. Cook and stir ground beef in the hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease.\n\nGround beef cooking until browned and crumbly.\nDOTDASH MEREDITH FOOD STUDIOS\nMix tomato sauce, sugar, garlic salt, and salt into the ground beef; simmer until flavors blend, about 20 minutes. Remove from the heat and cover the skillet.\n\nTomato sauce, garlic salt, sugar and salt mixed together with the ground beef.\nDOTDASH MEREDITH FOOD STUDIOS\nWhile the sauce is cooking, bring a large pot of lightly salted water to a boil. Cook egg noodles in the boiling water, stirring occasionally until cooked through but firm to the bite, 7 to 9 minutes. Drain.\n\nWhile the egg noodles are cooking, preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch casserole dish.\n\nMix sour cream, cream cheese, and onion together in a bowl.\n\nSour cream, cream cheese and onion mixed together in a bowl.\nDOTDASH MEREDITH FOOD STUDIOS\nLayer 1/2 of the egg noodles into the prepared casserole dish. Top with 1/2 of the sour cream mixture, then 1/2 of the ground beef mixture. Repeat layers once more. Sprinkle Cheddar cheese over top.\n\nAll ingredients layered together in prepared baking dish.\nDOTDASH MEREDITH FOOD STUDIOS\nCheddar cheese sprinkled over top.\nDOTDASH MEREDITH FOOD STUDIOS\nBake in the preheated oven until cheese is melted and golden brown, 25 to 30 minutes.\n\nA high angle looking at grandma's ground beef casserole.\nDOTDASH MEREDITH FOOD STUDIOS\n",
+      "id": 9
+    }
+  ],
+  "users": []
 }
